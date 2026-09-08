@@ -1,0 +1,4520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+>
+
+<meta
+    name="description"
+    content="Aaspireya Global Tech — AI-powered German-language customer support, business process services and intelligent workflow automation."
+>
+
+<title>
+    Aaspireya Global Tech | Business Transformation Assessment
+</title>
+
+<style>
+
+:root {
+
+    --navy: #071b49;
+    --blue: #0d3b91;
+    --blue2: #1769d2;
+    --blue3: #2c7be5;
+
+    --green: #00a878;
+    --green2: #16b77a;
+
+    --light-blue: #eef6ff;
+    --lighter-blue: #f6faff;
+
+    --text: #10233f;
+    --muted: #5c6b7e;
+
+    --border: #dce6f2;
+
+    --white: #ffffff;
+
+    --shadow:
+        0 20px 60px rgba(7, 27, 73, 0.10);
+
+    --shadow-small:
+        0 10px 30px rgba(7, 27, 73, 0.08);
+
+    --radius: 20px;
+
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+
+    margin: 0;
+
+    font-family:
+        Inter,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Arial,
+        sans-serif;
+
+    background:
+        linear-gradient(
+            180deg,
+            #f8fbff 0%,
+            #ffffff 45%,
+            #f5f9ff 100%
+        );
+
+    color: var(--text);
+
+    line-height: 1.6;
+
+}
+
+
+button,
+input,
+textarea,
+select {
+    font-family: inherit;
+}
+
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.header {
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 1000;
+
+    background:
+        rgba(7, 27, 73, 0.96);
+
+    backdrop-filter:
+        blur(16px);
+
+    border-bottom:
+        1px solid rgba(255,255,255,0.10);
+
+}
+
+
+.header-inner {
+
+    max-width: 1240px;
+
+    margin: auto;
+
+    min-height: 76px;
+
+    padding:
+        0 24px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+}
+
+
+.brand {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 13px;
+
+    color: white;
+
+}
+
+
+.logo-mark {
+
+    width: 42px;
+
+    height: 42px;
+
+    border-radius: 12px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background:
+        linear-gradient(
+            135deg,
+            var(--green),
+            var(--blue2)
+        );
+
+    font-size: 18px;
+
+    font-weight: 900;
+
+    box-shadow:
+        0 8px 25px rgba(0,168,120,0.25);
+
+}
+
+
+.logo-name {
+
+    font-size: 17px;
+
+    font-weight: 800;
+
+    letter-spacing: -0.3px;
+
+}
+
+
+.logo-sub {
+
+    font-size: 10px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1.4px;
+
+    opacity: .72;
+
+}
+
+
+.header-badge {
+
+    padding:
+        8px 14px;
+
+    border:
+        1px solid rgba(255,255,255,.16);
+
+    border-radius: 100px;
+
+    color: rgba(255,255,255,.88);
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+}
+
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.hero {
+
+    position: relative;
+
+    overflow: hidden;
+
+    padding:
+        85px 20px 75px;
+
+    background:
+
+        radial-gradient(
+            circle at 15% 20%,
+            rgba(44,123,229,.12),
+            transparent 30%
+        ),
+
+        radial-gradient(
+            circle at 85% 10%,
+            rgba(0,168,120,.12),
+            transparent 28%
+        );
+
+}
+
+
+.hero-inner {
+
+    max-width: 1240px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns:
+        1.05fr .95fr;
+
+    gap: 70px;
+
+    align-items: center;
+
+}
+
+
+.eyebrow {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    padding:
+        8px 13px;
+
+    background:
+        #e8f7f2;
+
+    color:
+        #087654;
+
+    border-radius:
+        100px;
+
+    font-size: 12px;
+
+    font-weight: 800;
+
+    text-transform: uppercase;
+
+    letter-spacing: .8px;
+
+}
+
+
+.eyebrow-dot {
+
+    width: 7px;
+
+    height: 7px;
+
+    border-radius: 50%;
+
+    background:
+        var(--green);
+
+    box-shadow:
+        0 0 0 5px rgba(0,168,120,.12);
+
+}
+
+
+.hero h1 {
+
+    margin:
+        20px 0 18px;
+
+    color:
+        var(--navy);
+
+    font-size:
+        clamp(42px, 5.3vw, 72px);
+
+    line-height:
+        1.02;
+
+    letter-spacing:
+        -3px;
+
+}
+
+
+.hero h1 span {
+
+    color:
+        var(--blue2);
+
+}
+
+
+.hero-description {
+
+    max-width: 650px;
+
+    color:
+        var(--muted);
+
+    font-size:
+        18px;
+
+    line-height:
+        1.75;
+
+}
+
+
+.hero-actions {
+
+    margin-top: 32px;
+
+    display: flex;
+
+    gap: 13px;
+
+    flex-wrap: wrap;
+
+}
+
+
+.primary-btn {
+
+    border: none;
+
+    padding:
+        15px 23px;
+
+    border-radius:
+        11px;
+
+    background:
+        linear-gradient(
+            135deg,
+            var(--blue),
+            var(--blue2)
+        );
+
+    color: white;
+
+    font-size: 14px;
+
+    font-weight: 800;
+
+    cursor: pointer;
+
+    box-shadow:
+        0 10px 25px rgba(13,59,145,.20);
+
+    transition:
+        .2s ease;
+
+}
+
+
+.primary-btn:hover {
+
+    transform:
+        translateY(-2px);
+
+    box-shadow:
+        0 14px 30px rgba(13,59,145,.27);
+
+}
+
+
+.secondary-btn {
+
+    padding:
+        14px 22px;
+
+    border-radius:
+        11px;
+
+    background: white;
+
+    color:
+        var(--navy);
+
+    border:
+        1px solid var(--border);
+
+    text-decoration:
+        none;
+
+    font-size:
+        14px;
+
+    font-weight:
+        800;
+
+}
+
+
+.hero-points {
+
+    margin-top: 25px;
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+}
+
+
+.hero-point {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 7px;
+
+    color:
+        #53657b;
+
+    font-size:
+        12px;
+
+    font-weight:
+        700;
+
+}
+
+
+.check {
+
+    width: 20px;
+
+    height: 20px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background:
+        #e6f7f2;
+
+    color:
+        var(--green);
+
+    font-size:
+        11px;
+
+}
+
+
+/* =========================================================
+   HERO VISUAL
+========================================================= */
+
+.hero-visual {
+
+    position: relative;
+
+    min-height:
+        430px;
+
+}
+
+
+.dashboard-card {
+
+    position: absolute;
+
+    inset:
+        20px 0 0 20px;
+
+    padding:
+        25px;
+
+    background:
+        rgba(255,255,255,.93);
+
+    border:
+        1px solid rgba(216,228,243,.95);
+
+    border-radius:
+        24px;
+
+    box-shadow:
+        0 35px 80px rgba(7,27,73,.16);
+
+    transform:
+        rotate(1.5deg);
+
+}
+
+
+.dashboard-top {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom:
+        25px;
+
+}
+
+
+.dashboard-title {
+
+    font-weight:
+        850;
+
+    color:
+        var(--navy);
+
+}
+
+
+.live-pill {
+
+    background:
+        #e9f8f3;
+
+    color:
+        #087654;
+
+    border-radius:
+        100px;
+
+    padding:
+        5px 9px;
+
+    font-size:
+        10px;
+
+    font-weight:
+        800;
+
+}
+
+
+.score-panel {
+
+    display: grid;
+
+    grid-template-columns:
+        130px 1fr;
+
+    gap:
+        25px;
+
+    align-items:
+        center;
+
+    padding:
+        20px;
+
+    border-radius:
+        18px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #f0f7ff,
+            #f8fcff
+        );
+
+    border:
+        1px solid #e1edf9;
+
+}
+
+
+.score-ring {
+
+    width:
+        110px;
+
+    height:
+        110px;
+
+    border-radius:
+        50%;
+
+    display:
+        flex;
+
+    flex-direction:
+        column;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    background:
+        conic-gradient(
+            var(--blue2) 82%,
+            #dce8f7 82%
+        );
+
+    position:
+        relative;
+
+}
+
+
+.score-ring::after {
+
+    content: "";
+
+    position: absolute;
+
+    inset:
+        10px;
+
+    background:
+        white;
+
+    border-radius:
+        50%;
+
+}
+
+
+.score-number {
+
+    position:
+        relative;
+
+    z-index:
+        2;
+
+    font-size:
+        28px;
+
+    font-weight:
+        900;
+
+    color:
+        var(--navy);
+
+}
+
+
+.score-label {
+
+    position:
+        relative;
+
+    z-index:
+        2;
+
+    font-size:
+        9px;
+
+    font-weight:
+        800;
+
+    color:
+        var(--muted);
+
+    text-transform:
+        uppercase;
+
+}
+
+
+.metric-list {
+
+    display:
+        grid;
+
+    gap:
+        13px;
+
+}
+
+
+.metric {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        145px 1fr 42px;
+
+    align-items:
+        center;
+
+    gap:
+        10px;
+
+    font-size:
+        11px;
+
+    color:
+        #52647b;
+
+}
+
+
+.metric strong {
+
+    text-align:
+        right;
+
+    color:
+        var(--navy);
+
+}
+
+
+.bar {
+
+    height:
+        7px;
+
+    background:
+        #e7eef7;
+
+    border-radius:
+        100px;
+
+    overflow:
+        hidden;
+
+}
+
+
+.bar span {
+
+    display:
+        block;
+
+    height:
+        100%;
+
+    border-radius:
+        inherit;
+
+    background:
+        linear-gradient(
+            90deg,
+            var(--blue2),
+            var(--green)
+        );
+
+}
+
+
+.workflow-preview {
+
+    margin-top:
+        20px;
+
+    display:
+        grid;
+
+    grid-template-columns:
+        repeat(4,1fr);
+
+    gap:
+        7px;
+
+}
+
+
+.workflow-node {
+
+    padding:
+        12px 6px;
+
+    text-align:
+        center;
+
+    background:
+        white;
+
+    border:
+        1px solid #e1e8f1;
+
+    border-radius:
+        10px;
+
+    font-size:
+        9px;
+
+    font-weight:
+        800;
+
+    color:
+        #42536a;
+
+}
+
+
+.workflow-arrow {
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    color:
+        var(--green);
+
+    font-weight:
+        900;
+
+}
+
+
+/* =========================================================
+   TRUST STRIP
+========================================================= */
+
+.trust-strip {
+
+    padding:
+        24px 20px;
+
+    border-top:
+        1px solid #edf1f7;
+
+    border-bottom:
+        1px solid #edf1f7;
+
+    background:
+        white;
+
+}
+
+
+.trust-inner {
+
+    max-width:
+        1100px;
+
+    margin:
+        auto;
+
+    display:
+        grid;
+
+    grid-template-columns:
+        repeat(4,1fr);
+
+    gap:
+        20px;
+
+}
+
+
+.trust-item {
+
+    text-align:
+        center;
+
+    padding:
+        5px;
+
+}
+
+
+.trust-icon {
+
+    font-size:
+        22px;
+
+}
+
+
+.trust-item strong {
+
+    display:
+        block;
+
+    margin-top:
+        4px;
+
+    font-size:
+        12px;
+
+    color:
+        var(--navy);
+
+}
+
+
+.trust-item span {
+
+    display:
+        block;
+
+    font-size:
+        10px;
+
+    color:
+        #728198;
+
+}
+
+
+/* =========================================================
+   MAIN CONTENT
+========================================================= */
+
+.main {
+
+    max-width:
+        1100px;
+
+    margin:
+        auto;
+
+    padding:
+        85px 20px 100px;
+
+}
+
+
+.section-heading {
+
+    text-align:
+        center;
+
+    max-width:
+        750px;
+
+    margin:
+        0 auto 40px;
+
+}
+
+
+.section-kicker {
+
+    color:
+        var(--green);
+
+    font-size:
+        11px;
+
+    font-weight:
+        900;
+
+    text-transform:
+        uppercase;
+
+    letter-spacing:
+        1.6px;
+
+}
+
+
+.section-heading h2 {
+
+    margin:
+        10px 0;
+
+    font-size:
+        38px;
+
+    line-height:
+        1.15;
+
+    letter-spacing:
+        -1.5px;
+
+    color:
+        var(--navy);
+
+}
+
+
+.section-heading p {
+
+    margin:
+        0;
+
+    color:
+        var(--muted);
+
+    font-size:
+        15px;
+
+}
+
+
+/* =========================================================
+   ASSESSMENT CARD
+========================================================= */
+
+.assessment-card {
+
+    background:
+        white;
+
+    border:
+        1px solid var(--border);
+
+    border-radius:
+        26px;
+
+    box-shadow:
+        var(--shadow);
+
+    overflow:
+        hidden;
+
+}
+
+
+.progress-area {
+
+    padding:
+        22px 28px;
+
+    background:
+        #f7faff;
+
+    border-bottom:
+        1px solid #e7edf5;
+
+}
+
+
+.progress-head {
+
+    display:
+        flex;
+
+    justify-content:
+        space-between;
+
+    align-items:
+        center;
+
+    margin-bottom:
+        10px;
+
+}
+
+
+.progress-title {
+
+    font-size:
+        12px;
+
+    font-weight:
+        850;
+
+    color:
+        var(--navy);
+
+}
+
+
+.progress-count {
+
+    font-size:
+        11px;
+
+    color:
+        var(--muted);
+
+}
+
+
+.progress-track {
+
+    height:
+        6px;
+
+    background:
+        #e1e9f3;
+
+    border-radius:
+        100px;
+
+    overflow:
+        hidden;
+
+}
+
+
+.progress-fill {
+
+    height:
+        100%;
+
+    width:
+        20%;
+
+    background:
+        linear-gradient(
+            90deg,
+            var(--blue2),
+            var(--green)
+        );
+
+    transition:
+        width .3s ease;
+
+}
+
+
+.form-content {
+
+    padding:
+        42px;
+
+}
+
+
+.step {
+
+    display:
+        none;
+
+}
+
+
+.step.active {
+
+    display:
+        block;
+
+    animation:
+        fadeIn .35s ease;
+
+}
+
+
+@keyframes fadeIn {
+
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+
+.step-number {
+
+    display:
+        inline-flex;
+
+    width:
+        34px;
+
+    height:
+        34px;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    border-radius:
+        10px;
+
+    background:
+        #eaf2ff;
+
+    color:
+        var(--blue);
+
+    font-size:
+        12px;
+
+    font-weight:
+        900;
+
+}
+
+
+.step h3 {
+
+    margin:
+        16px 0 7px;
+
+    color:
+        var(--navy);
+
+    font-size:
+        26px;
+
+    letter-spacing:
+        -.7px;
+
+}
+
+
+.step-intro {
+
+    margin:
+        0 0 27px;
+
+    color:
+        var(--muted);
+
+    font-size:
+        14px;
+
+}
+
+
+/* =========================================================
+   FORM ELEMENTS
+========================================================= */
+
+.field-grid {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        repeat(2,1fr);
+
+    gap:
+        18px;
+
+}
+
+
+.field.full {
+
+    grid-column:
+        1 / -1;
+
+}
+
+
+.field label {
+
+    display:
+        block;
+
+    margin-bottom:
+        7px;
+
+    font-size:
+        12px;
+
+    font-weight:
+        850;
+
+    color:
+        #34445a;
+
+}
+
+
+.required {
+
+    color:
+        #e23d55;
+
+}
+
+
+input,
+textarea,
+select {
+
+    width:
+        100%;
+
+    border:
+        1px solid #d4dfeb;
+
+    border-radius:
+        11px;
+
+    padding:
+        13px 14px;
+
+    background:
+        #fbfdff;
+
+    color:
+        var(--text);
+
+    outline:
+        none;
+
+    font-size:
+        13px;
+
+    transition:
+        .2s ease;
+
+}
+
+
+input:focus,
+textarea:focus,
+select:focus {
+
+    border-color:
+        var(--blue2);
+
+    background:
+        white;
+
+    box-shadow:
+        0 0 0 4px rgba(23,105,210,.09);
+
+}
+
+
+textarea {
+
+    min-height:
+        130px;
+
+    resize:
+        vertical;
+
+}
+
+
+select {
+
+    cursor:
+        pointer;
+
+}
+
+
+/* =========================================================
+   CHOICE CARDS
+========================================================= */
+
+.choice-grid {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        repeat(2,1fr);
+
+    gap:
+        12px;
+
+}
+
+
+.choice {
+
+    position:
+        relative;
+
+}
+
+
+.choice input {
+
+    position:
+        absolute;
+
+    opacity:
+        0;
+
+    pointer-events:
+        none;
+
+}
+
+
+.choice label {
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    gap:
+        12px;
+
+    padding:
+        16px;
+
+    margin:
+        0;
+
+    border:
+        1px solid #dce5ef;
+
+    border-radius:
+        13px;
+
+    cursor:
+        pointer;
+
+    background:
+        white;
+
+    transition:
+        .2s ease;
+
+}
+
+
+.choice label:hover {
+
+    border-color:
+        #a8c6ec;
+
+    transform:
+        translateY(-1px);
+
+}
+
+
+.choice input:checked + label {
+
+    border-color:
+        var(--blue2);
+
+    background:
+        #f0f6ff;
+
+    box-shadow:
+        0 5px 18px rgba(23,105,210,.09);
+
+}
+
+
+.choice-icon {
+
+    width:
+        36px;
+
+    height:
+        36px;
+
+    flex:
+        0 0 36px;
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    background:
+        #edf5ff;
+
+    border-radius:
+        10px;
+
+    font-size:
+        17px;
+
+}
+
+
+.choice-text strong {
+
+    display:
+        block;
+
+    font-size:
+        12px;
+
+    color:
+        var(--navy);
+
+}
+
+
+.choice-text span {
+
+    display:
+        block;
+
+    margin-top:
+        2px;
+
+    color:
+        #748399;
+
+    font-size:
+        10px;
+
+}
+
+
+/* =========================================================
+   FORM NAVIGATION
+========================================================= */
+
+.form-navigation {
+
+    display:
+        flex;
+
+    justify-content:
+        space-between;
+
+    align-items:
+        center;
+
+    gap:
+        12px;
+
+    margin-top:
+        34px;
+
+    padding-top:
+        24px;
+
+    border-top:
+        1px solid #edf1f5;
+
+}
+
+
+.back-btn {
+
+    border:
+        1px solid #d6e0eb;
+
+    background:
+        white;
+
+    color:
+        var(--navy);
+
+    padding:
+        12px 20px;
+
+    border-radius:
+        10px;
+
+    font-size:
+        13px;
+
+    font-weight:
+        800;
+
+    cursor:
+        pointer;
+
+}
+
+
+.next-btn {
+
+    border:
+        none;
+
+    background:
+        linear-gradient(
+            135deg,
+            var(--blue),
+            var(--blue2)
+        );
+
+    color:
+        white;
+
+    padding:
+        13px 22px;
+
+    border-radius:
+        10px;
+
+    font-size:
+        13px;
+
+    font-weight:
+        850;
+
+    cursor:
+        pointer;
+
+    box-shadow:
+        0 8px 20px rgba(13,59,145,.18);
+
+}
+
+
+.next-btn:hover {
+
+    transform:
+        translateY(-1px);
+
+}
+
+
+.back-btn:disabled,
+.next-btn:disabled {
+
+    opacity:
+        .55;
+
+    cursor:
+        not-allowed;
+
+}
+
+
+.review-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+}
+
+.review-item {
+    padding: 16px;
+    border: 1px solid #dce5ef;
+    border-radius: 13px;
+    background: #fbfdff;
+    min-width: 0;
+}
+
+.review-full {
+    grid-column: 1 / -1;
+}
+
+.review-label {
+    display: block;
+    margin-bottom: 6px;
+    color: #748399;
+    font-size: 10px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: .7px;
+}
+
+.review-item strong,
+.review-item div {
+    color: var(--navy);
+    font-size: 13px;
+    line-height: 1.6;
+    overflow-wrap: anywhere;
+}
+
+.review-chip {
+    display: inline-block;
+    margin: 3px 5px 3px 0;
+    padding: 5px 9px;
+    border-radius: 999px;
+    background: #eaf2ff;
+    color: var(--blue);
+    font-size: 11px;
+    font-weight: 800;
+}
+
+@media (max-width: 700px) {
+    .review-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .review-full {
+        grid-column: auto;
+    }
+}
+
+/* =========================================================
+   LOADING
+========================================================= */
+
+.loading {
+
+    display:
+        none;
+
+    text-align:
+        center;
+
+    padding:
+        65px 20px;
+
+}
+
+
+.loading.active {
+
+    display:
+        block;
+
+}
+
+
+.spinner {
+
+    width:
+        48px;
+
+    height:
+        48px;
+
+    border:
+        4px solid #dce8f6;
+
+    border-top-color:
+        var(--blue2);
+
+    border-right-color:
+        var(--green);
+
+    border-radius:
+        50%;
+
+    margin:
+        auto;
+
+    animation:
+        spin .8s linear infinite;
+
+}
+
+
+@keyframes spin {
+
+    to {
+        transform:
+            rotate(360deg);
+    }
+
+}
+
+
+.loading h3 {
+
+    margin:
+        22px 0 6px;
+
+    color:
+        var(--navy);
+
+}
+
+
+.loading p {
+
+    margin:
+        0;
+
+    color:
+        var(--muted);
+
+    font-size:
+        13px;
+
+}
+
+
+/* =========================================================
+   RESULTS
+========================================================= */
+
+.report-area {
+
+    display:
+        none;
+
+    margin-top:
+        45px;
+
+}
+
+
+.report-area.active {
+
+    display:
+        block;
+
+    animation:
+        fadeIn .5s ease;
+
+}
+
+
+.report-hero {
+
+    padding:
+        35px;
+
+    background:
+        linear-gradient(
+            135deg,
+            var(--navy),
+            #0e3e91
+        );
+
+    border-radius:
+        22px;
+
+    color:
+        white;
+
+    position:
+        relative;
+
+    overflow:
+        hidden;
+
+}
+
+
+.report-hero::after {
+
+    content: "";
+
+    position:
+        absolute;
+
+    width:
+        260px;
+
+    height:
+        260px;
+
+    right:
+        -100px;
+
+    top:
+        -100px;
+
+    border-radius:
+        50%;
+
+    border:
+        1px solid rgba(255,255,255,.12);
+
+    box-shadow:
+        0 0 0 45px rgba(255,255,255,.025),
+        0 0 0 90px rgba(255,255,255,.018);
+
+}
+
+
+.report-top {
+
+    position:
+        relative;
+
+    z-index:
+        2;
+
+    display:
+        flex;
+
+    justify-content:
+        space-between;
+
+    align-items:
+        center;
+
+    gap:
+        25px;
+
+}
+
+
+.report-label {
+
+    color:
+        #a9d4ff;
+
+    font-size:
+        10px;
+
+    text-transform:
+        uppercase;
+
+    letter-spacing:
+        1.5px;
+
+    font-weight:
+        900;
+
+}
+
+
+.report-hero h2 {
+
+    margin:
+        7px 0;
+
+    font-size:
+        30px;
+
+}
+
+
+.report-hero p {
+
+    margin:
+        0;
+
+    color:
+        rgba(255,255,255,.74);
+
+    font-size:
+        13px;
+
+}
+
+
+.result-score {
+
+    flex:
+        0 0 125px;
+
+    height:
+        125px;
+
+    border-radius:
+        50%;
+
+    background:
+        conic-gradient(
+            var(--green) var(--score, 82%),
+            rgba(255,255,255,.14) var(--score, 82%)
+        );
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    position:
+        relative;
+
+}
+
+
+.result-score::after {
+
+    content: "";
+
+    position:
+        absolute;
+
+    inset:
+        11px;
+
+    border-radius:
+        50%;
+
+    background:
+        var(--navy);
+
+}
+
+
+.result-score-content {
+
+    position:
+        relative;
+
+    z-index:
+        2;
+
+    text-align:
+        center;
+
+}
+
+
+.result-score-number {
+
+    font-size:
+        30px;
+
+    font-weight:
+        900;
+
+}
+
+
+.result-score-text {
+
+    font-size:
+        8px;
+
+    color:
+        rgba(255,255,255,.62);
+
+    text-transform:
+        uppercase;
+
+    letter-spacing:
+        1px;
+
+}
+
+
+.result-grid {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        repeat(3,1fr);
+
+    gap:
+        15px;
+
+    margin-top:
+        18px;
+
+}
+
+
+.result-card {
+
+    padding:
+        22px;
+
+    border:
+        1px solid var(--border);
+
+    background:
+        white;
+
+    border-radius:
+        17px;
+
+    box-shadow:
+        var(--shadow-small);
+
+}
+
+
+.result-card h4 {
+
+    margin:
+        0 0 7px;
+
+    color:
+        var(--navy);
+
+    font-size:
+        13px;
+
+}
+
+
+.result-card p {
+
+    margin:
+        0;
+
+    color:
+        var(--muted);
+
+    font-size:
+        12px;
+
+}
+
+
+.result-section {
+
+    margin-top:
+        22px;
+
+    padding:
+        28px;
+
+    background:
+        white;
+
+    border:
+        1px solid var(--border);
+
+    border-radius:
+        19px;
+
+    box-shadow:
+        var(--shadow-small);
+
+}
+
+
+.result-section h3 {
+
+    margin:
+        0 0 17px;
+
+    color:
+        var(--navy);
+
+    font-size:
+        18px;
+
+}
+
+
+.summary-tabs {
+
+    display:
+        flex;
+
+    gap:
+        6px;
+
+    margin-bottom:
+        12px;
+
+}
+
+
+.summary-tab {
+
+    padding:
+        9px 14px;
+
+    border:
+        1px solid #dce5ef;
+
+    border-radius:
+        8px;
+
+    background:
+        white;
+
+    color:
+        #607087;
+
+    cursor:
+        pointer;
+
+    font-size:
+        11px;
+
+    font-weight:
+        800;
+
+}
+
+
+.summary-tab.active {
+
+    background:
+        var(--navy);
+
+    color:
+        white;
+
+    border-color:
+        var(--navy);
+
+}
+
+
+.summary-box {
+
+    padding:
+        21px;
+
+    background:
+        #f7faff;
+
+    border:
+        1px solid #e5edf6;
+
+    border-radius:
+        13px;
+
+    color:
+        #40536b;
+
+    font-size:
+        13px;
+
+    white-space:
+        pre-line;
+
+}
+
+
+/* =========================================================
+   CHALLENGES
+========================================================= */
+
+.bullet-grid {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        repeat(2,1fr);
+
+    gap:
+        11px;
+
+}
+
+
+.bullet-item {
+
+    display:
+        flex;
+
+    gap:
+        10px;
+
+    padding:
+        13px;
+
+    background:
+        #f8fbff;
+
+    border:
+        1px solid #e5edf6;
+
+    border-radius:
+        11px;
+
+    font-size:
+        12px;
+
+    color:
+        #52647b;
+
+}
+
+
+.bullet-icon {
+
+    color:
+        var(--green);
+
+    font-weight:
+        900;
+
+}
+
+
+/* =========================================================
+   SERVICES
+========================================================= */
+
+.services {
+
+    display:
+        grid;
+
+    gap:
+        13px;
+
+}
+
+
+.service {
+
+    padding:
+        20px;
+
+    border:
+        1px solid #dfe8f2;
+
+    border-left:
+        4px solid var(--blue2);
+
+    border-radius:
+        13px;
+
+    background:
+        #fbfdff;
+
+}
+
+
+.service-head {
+
+    display:
+        flex;
+
+    justify-content:
+        space-between;
+
+    align-items:
+        flex-start;
+
+    gap:
+        15px;
+
+}
+
+
+.service-name {
+
+    font-weight:
+        850;
+
+    color:
+        var(--navy);
+
+    font-size:
+        14px;
+
+}
+
+
+.match {
+
+    flex:
+        0 0 auto;
+
+    padding:
+        5px 9px;
+
+    border-radius:
+        100px;
+
+    background:
+        #e9f8f3;
+
+    color:
+        #087654;
+
+    font-size:
+        10px;
+
+    font-weight:
+        900;
+
+}
+
+
+.service p {
+
+    margin:
+        9px 0;
+
+    color:
+        var(--muted);
+
+    font-size:
+        12px;
+
+}
+
+
+.impact {
+
+    color:
+        var(--blue);
+
+    font-size:
+        11px;
+
+    font-weight:
+        800;
+
+}
+
+
+/* =========================================================
+   ROADMAP
+========================================================= */
+
+.roadmap {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        repeat(3,1fr);
+
+    gap:
+        13px;
+
+}
+
+
+.roadmap-step {
+
+    padding:
+        20px;
+
+    border:
+        1px solid #dce6f0;
+
+    border-radius:
+        14px;
+
+    background:
+        linear-gradient(
+            180deg,
+            #ffffff,
+            #f8fbff
+        );
+
+    position:
+        relative;
+
+}
+
+
+.roadmap-number {
+
+    width:
+        32px;
+
+    height:
+        32px;
+
+    border-radius:
+        9px;
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    background:
+        #eaf2ff;
+
+    color:
+        var(--blue);
+
+    font-size:
+        11px;
+
+    font-weight:
+        900;
+
+}
+
+
+.roadmap-step h4 {
+
+    margin:
+        13px 0 4px;
+
+    color:
+        var(--navy);
+
+    font-size:
+        13px;
+
+}
+
+
+.timeline {
+
+    color:
+        var(--green);
+
+    font-size:
+        10px;
+
+    font-weight:
+        900;
+
+}
+
+
+.roadmap-step p {
+
+    margin:
+        10px 0 0;
+
+    color:
+        var(--muted);
+
+    font-size:
+        11px;
+
+}
+
+
+/* =========================================================
+   KPI
+========================================================= */
+
+.kpi-grid {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        repeat(3,1fr);
+
+    gap:
+        11px;
+
+}
+
+
+.kpi {
+
+    padding:
+        16px;
+
+    border:
+        1px solid #e2eaf3;
+
+    border-radius:
+        12px;
+
+    background:
+        #fbfdff;
+
+}
+
+
+.kpi strong {
+
+    display:
+        block;
+
+    color:
+        var(--navy);
+
+    font-size:
+        12px;
+
+}
+
+
+.kpi span {
+
+    display:
+        block;
+
+    margin-top:
+        4px;
+
+    color:
+        var(--muted);
+
+    font-size:
+        10px;
+
+}
+
+
+/* =========================================================
+   CTA
+========================================================= */
+
+.cta {
+
+    margin-top:
+        22px;
+
+    padding:
+        30px;
+
+    border-radius:
+        20px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #eaf8f4,
+            #eff7ff
+        );
+
+    border:
+        1px solid #cfece2;
+
+    text-align:
+        center;
+
+}
+
+
+.cta h3 {
+
+    margin:
+        0 0 7px;
+
+    color:
+        var(--navy);
+
+    font-size:
+        20px;
+
+}
+
+
+.cta p {
+
+    max-width:
+        600px;
+
+    margin:
+        0 auto 20px;
+
+    color:
+        #617187;
+
+    font-size:
+        12px;
+
+}
+
+
+.cta-actions {
+
+    display:
+        flex;
+
+    justify-content:
+        center;
+
+    gap:
+        10px;
+
+    flex-wrap:
+        wrap;
+
+}
+
+
+.whatsapp-btn {
+
+    display:
+        inline-flex;
+
+    align-items:
+        center;
+
+    gap:
+        8px;
+
+    padding:
+        12px 18px;
+
+    border-radius:
+        10px;
+
+    background:
+        #12b76a;
+
+    color:
+        white;
+
+    text-decoration:
+        none;
+
+    font-size:
+        12px;
+
+    font-weight:
+        850;
+
+}
+
+
+.restart-btn {
+
+    padding:
+        12px 18px;
+
+    border:
+        1px solid #cfdbe8;
+
+    border-radius:
+        10px;
+
+    background:
+        white;
+
+    color:
+        var(--navy);
+
+    cursor:
+        pointer;
+
+    font-size:
+        12px;
+
+    font-weight:
+        850;
+
+}
+
+
+/* =========================================================
+   ERROR
+========================================================= */
+
+.error-box {
+
+    display:
+        none;
+
+    margin-top:
+        15px;
+
+    padding:
+        14px;
+
+    border-radius:
+        10px;
+
+    background:
+        #fff3f4;
+
+    border:
+        1px solid #ffd3d7;
+
+    color:
+        #b4232f;
+
+    font-size:
+        12px;
+
+}
+
+
+.error-box.active {
+
+    display:
+        block;
+
+}
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+.footer {
+
+    padding:
+        35px 20px;
+
+    background:
+        var(--navy);
+
+    color:
+        white;
+
+}
+
+
+.footer-inner {
+
+    max-width:
+        1100px;
+
+    margin:
+        auto;
+
+    display:
+        flex;
+
+    justify-content:
+        space-between;
+
+    gap:
+        20px;
+
+    align-items:
+        center;
+
+}
+
+
+.footer-name {
+
+    font-weight:
+        850;
+
+}
+
+
+.footer-copy {
+
+    color:
+        rgba(255,255,255,.55);
+
+    font-size:
+        10px;
+
+}
+
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media(max-width: 900px) {
+
+    .hero-inner {
+
+        grid-template-columns:
+            1fr;
+
+        gap:
+            35px;
+
+    }
+
+    .hero-visual {
+
+        max-width:
+            650px;
+
+        width:
+            100%;
+
+        margin:
+            auto;
+
+    }
+
+    .trust-inner {
+
+        grid-template-columns:
+            repeat(2,1fr);
+
+    }
+
+}
+
+
+@media(max-width: 700px) {
+
+    .header-badge {
+
+        display:
+            none;
+
+    }
+
+    .hero {
+
+        padding-top:
+            55px;
+
+    }
+
+    .hero h1 {
+
+        font-size:
+            42px;
+
+        letter-spacing:
+            -1.8px;
+
+    }
+
+    .hero-description {
+
+        font-size:
+            15px;
+
+    }
+
+    .dashboard-card {
+
+        inset:
+            10px 0 0;
+
+        transform:
+            none;
+
+        padding:
+            17px;
+
+    }
+
+    .hero-visual {
+
+        min-height:
+            360px;
+
+    }
+
+    .score-panel {
+
+        grid-template-columns:
+            95px 1fr;
+
+        padding:
+            14px;
+
+    }
+
+    .score-ring {
+
+        width:
+            85px;
+
+        height:
+            85px;
+
+    }
+
+    .metric {
+
+        grid-template-columns:
+            95px 1fr 28px;
+
+    }
+
+    .workflow-preview {
+
+        grid-template-columns:
+            repeat(4,1fr);
+
+    }
+
+    .main {
+
+        padding-top:
+            55px;
+
+    }
+
+    .section-heading h2 {
+
+        font-size:
+            29px;
+
+    }
+
+    .form-content {
+
+        padding:
+            25px 18px;
+
+    }
+
+    .field-grid,
+    .choice-grid {
+
+        grid-template-columns:
+            1fr;
+
+    }
+
+    .field.full {
+
+        grid-column:
+            auto;
+
+    }
+
+    .result-top,
+    .report-top {
+
+        flex-direction:
+            column;
+
+        align-items:
+            flex-start;
+
+    }
+
+    .result-grid,
+    .roadmap,
+    .kpi-grid,
+    .bullet-grid {
+
+        grid-template-columns:
+            1fr;
+
+    }
+
+    .report-hero {
+
+        padding:
+            25px;
+
+    }
+
+    .result-score {
+
+        width:
+            110px;
+
+        height:
+            110px;
+
+    }
+
+    .form-navigation {
+
+        flex-direction:
+            column-reverse;
+
+        align-items:
+            stretch;
+
+    }
+
+    .next-btn,
+    .back-btn {
+
+        width:
+            100%;
+
+    }
+
+    .footer-inner {
+
+        flex-direction:
+            column;
+
+        text-align:
+            center;
+
+    }
+
+}
+
+
+
+
+/* Enhanced assessment controls */
+.choice-grid.multi-select .choice input[type="checkbox"] { display:none; }
+.choice-grid.multi-select .choice label { position:relative; }
+.choice-grid.multi-select .choice label::after {
+    content:"✓"; position:absolute; top:12px; right:12px; width:22px; height:22px;
+    border-radius:7px; display:flex; align-items:center; justify-content:center;
+    background:#eef3f9; color:#91a0b2; font-size:12px; font-weight:900;
+    border:1px solid #d9e3ee; opacity:1;
+}
+.choice-grid.multi-select .choice input[type="checkbox"]:checked + label {
+    border-color:#2c7be5; background:linear-gradient(180deg,#f4f9ff,#eef6ff);
+    box-shadow:0 8px 22px rgba(44,123,229,.10);
+}
+.choice-grid.multi-select .choice input[type="checkbox"]:checked + label::after {
+    background:#0d3b91; border-color:#0d3b91; color:white;
+}
+.selection-note { margin-top:10px; font-size:11px; color:#687991; }
+.helper-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:14px; }
+.helper-grid .field.full { grid-column:1 / -1; }
+.field small.helper { display:block; margin-top:5px; color:#74839a; font-size:10px; }
+.review-services { display:flex; flex-wrap:wrap; gap:7px; margin-top:7px; }
+.review-chip { padding:6px 9px; border-radius:999px; background:#eaf2ff; color:#174b91; border:1px solid #d7e5f7; font-size:10px; font-weight:800; }
+.dimension-grid { display:grid; grid-template-columns:repeat(5,1fr); gap:10px; }
+.dimension-card { padding:15px; border:1px solid #e2eaf3; border-radius:12px; background:#fbfdff; }
+.dimension-card strong { display:block; font-size:11px; color:#10233f; }
+.dimension-card .dim-score { margin-top:5px; font-size:20px; font-weight:900; color:#0d3b91; }
+.dimension-card span { font-size:9px; color:#728198; }
+.impact-list { display:grid; grid-template-columns:repeat(2,1fr); gap:10px; }
+.impact-card { padding:15px; border:1px solid #e2eaf3; border-radius:12px; background:#fbfdff; }
+.impact-card strong { display:block; color:#10233f; font-size:12px; }
+.impact-card span { display:block; margin-top:4px; color:#5c6b7e; font-size:10px; }
+
+
+@media(max-width:700px){
+  .helper-grid,.impact-list,.dimension-grid{grid-template-columns:1fr;}
+  .helper-grid .field.full{grid-column:auto;}
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     HEADER
+====================================================== -->
+
+<header class="header">
+
+    <div class="header-inner">
+
+        <div class="brand">
+
+            <div class="logo-mark">
+                AGT
+            </div>
+
+            <div>
+
+                <div class="logo-name">
+                    Aaspireya Global Tech
+                </div>
+
+                <div class="logo-sub">
+                    AI Solutions • German Language BPO
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="header-badge">
+            Business Transformation Assessment
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- =====================================================
+     HERO
+====================================================== -->
+
+<section class="hero">
+
+    <div class="hero-inner">
+
+
+        <div>
+
+            <div class="eyebrow">
+
+                <span class="eyebrow-dot"></span>
+
+                AI + Human Expertise
+
+            </div>
+
+
+            <h1>
+
+                Turn business challenges into
+
+                <span>
+                    scalable solutions.
+                </span>
+
+            </h1>
+
+
+            <p class="hero-description">
+
+                Discover where German-language customer support,
+                intelligent automation and business process services
+                can strengthen your operations.
+
+            </p>
+
+
+            <div class="hero-actions">
+
+                <button
+                    class="primary-btn"
+                    onclick="scrollToAssessment()"
+                >
+
+                    Start Business Assessment
+                    →
+
+                </button>
+
+
+                <a
+                    href="#how-it-works"
+                    class="secondary-btn"
+                >
+
+                    See how it works
+
+                </a>
+
+            </div>
+
+
+            <div class="hero-points">
+
+                <div class="hero-point">
+
+                    <span class="check">✓</span>
+
+                    German-language capability
+
+                </div>
+
+                <div class="hero-point">
+
+                    <span class="check">✓</span>
+
+                    AI & workflow automation
+
+                </div>
+
+                <div class="hero-point">
+
+                    <span class="check">✓</span>
+
+                    Human expertise
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- HERO DASHBOARD -->
+
+        <div class="hero-visual">
+
+            <div class="dashboard-card">
+
+                <div class="dashboard-top">
+
+                    <div class="dashboard-title">
+                        Transformation Snapshot
+                    </div>
+
+                    <div class="live-pill">
+                        AI ASSESSMENT
+                    </div>
+
+                </div>
+
+
+                <div class="score-panel">
+
+                    <div class="score-ring">
+
+                        <div class="score-number">
+                            82
+                        </div>
+
+                        <div class="score-label">
+                            Opportunity
+                        </div>
+
+                    </div>
+
+
+                    <div class="metric-list">
+
+                        <div class="metric">
+
+                            <span>
+                                Customer Experience
+                            </span>
+
+                            <div class="bar">
+                                <span style="width:88%"></span>
+                            </div>
+
+                            <strong>88</strong>
+
+                        </div>
+
+
+                        <div class="metric">
+
+                            <span>
+                                Automation
+                            </span>
+
+                            <div class="bar">
+                                <span style="width:82%"></span>
+                            </div>
+
+                            <strong>82</strong>
+
+                        </div>
+
+
+                        <div class="metric">
+
+                            <span>
+                                Scalability
+                            </span>
+
+                            <div class="bar">
+                                <span style="width:76%"></span>
+                            </div>
+
+                            <strong>76</strong>
+
+                        </div>
+
+
+                        <div class="metric">
+
+                            <span>
+                                Operations
+                            </span>
+
+                            <div class="bar">
+                                <span style="width:84%"></span>
+                            </div>
+
+                            <strong>84</strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div
+                    style="
+                        margin-top:20px;
+                        font-size:11px;
+                        font-weight:850;
+                        color:#10233f;
+                    "
+                >
+
+                    Intelligent service architecture
+
+                </div>
+
+
+                <div class="workflow-preview">
+
+                    <div class="workflow-node">
+                        Customer
+                    </div>
+
+                    <div class="workflow-node">
+                        AI Triage
+                    </div>
+
+                    <div class="workflow-node">
+                        Human Expert
+                    </div>
+
+                    <div class="workflow-node">
+                        Resolution
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     TRUST STRIP
+====================================================== -->
+
+<div class="trust-strip">
+
+    <div class="trust-inner">
+
+        <div class="trust-item">
+
+            <div class="trust-icon">
+                🇩🇪
+            </div>
+
+            <strong>
+                German Support
+            </strong>
+
+            <span>
+                Language-focused operations
+            </span>
+
+        </div>
+
+
+        <div class="trust-item">
+
+            <div class="trust-icon">
+                🤖
+            </div>
+
+            <strong>
+                AI & Automation
+            </strong>
+
+            <span>
+                Intelligent workflows
+            </span>
+
+        </div>
+
+
+        <div class="trust-item">
+
+            <div class="trust-icon">
+                👥
+            </div>
+
+            <strong>
+                Human Expertise
+            </strong>
+
+            <span>
+                Skilled operational teams
+            </span>
+
+        </div>
+
+
+        <div class="trust-item">
+
+            <div class="trust-icon">
+                📊
+            </div>
+
+            <strong>
+                KPI Driven
+            </strong>
+
+            <span>
+                Continuous optimisation
+            </span>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- =====================================================
+     HOW IT WORKS
+====================================================== -->
+
+<section
+    id="how-it-works"
+    class="main"
+    style="padding-bottom:40px;"
+>
+
+    <div class="section-heading">
+
+        <div class="section-kicker">
+            How it works
+        </div>
+
+        <h2>
+            From business challenge to actionable solution.
+        </h2>
+
+        <p>
+            Our assessment connects your operational challenge
+            with the Aaspireya capabilities that may be most relevant
+            to your business.
+        </p>
+
+    </div>
+
+
+    <div
+        style="
+            display:grid;
+            grid-template-columns:repeat(4,1fr);
+            gap:14px;
+        "
+        class="process-grid"
+    >
+
+        <div class="result-card">
+
+            <div
+                class="step-number"
+                style="margin-bottom:14px;"
+            >
+                01
+            </div>
+
+            <h4>
+                Understand
+            </h4>
+
+            <p>
+                Tell us about your business,
+                industry and operational challenge.
+            </p>
+
+        </div>
+
+
+        <div class="result-card">
+
+            <div
+                class="step-number"
+                style="margin-bottom:14px;"
+            >
+                02
+            </div>
+
+            <h4>
+                Analyse
+            </h4>
+
+            <p>
+                Our assessment engine identifies
+                potential operational opportunities.
+            </p>
+
+        </div>
+
+
+        <div class="result-card">
+
+            <div
+                class="step-number"
+                style="margin-bottom:14px;"
+            >
+                03
+            </div>
+
+            <h4>
+                Design
+            </h4>
+
+            <p>
+                Receive relevant services,
+                workflows and implementation priorities.
+            </p>
+
+        </div>
+
+
+        <div class="result-card">
+
+            <div
+                class="step-number"
+                style="margin-bottom:14px;"
+            >
+                04
+            </div>
+
+            <h4>
+                Transform
+            </h4>
+
+            <p>
+                Discuss the opportunity with
+                the Aaspireya team and define next steps.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     ASSESSMENT
+====================================================== -->
+
+<main
+    class="main"
+    id="assessment"
+>
+
+    <div class="section-heading">
+
+        <div class="section-kicker">
+            Free business assessment
+        </div>
+
+        <h2>
+            Let's understand your business.
+        </h2>
+
+        <p>
+            Answer a few questions and receive a personalised
+            Aaspireya transformation assessment.
+        </p>
+
+    </div>
+
+
+    <div class="assessment-card">
+
+
+        <!-- PROGRESS -->
+
+        <div class="progress-area">
+
+            <div class="progress-head">
+
+                <div class="progress-title">
+                    Business Transformation Assessment
+                </div>
+
+                <div
+                    class="progress-count"
+                    id="progressCount"
+                >
+                    Step 1 of 5
+                </div>
+
+            </div>
+
+
+            <div class="progress-track">
+
+                <div
+                    class="progress-fill"
+                    id="progressFill"
+                ></div>
+
+            </div>
+
+        </div>
+
+
+        <!-- FORM -->
+
+        <div
+            class="form-content"
+            id="assessmentForm"
+        >
+
+
+            <!-- STEP 1 -->
+
+            <div
+                class="step active"
+                data-step="1"
+            >
+
+                <div class="step-number">
+                    01
+                </div>
+
+                <h3>
+                    Tell us who you are.
+                </h3>
+
+                <p class="step-intro">
+                    We'll use this information to personalise
+                    your assessment.
+                </p>
+
+
+                <div class="field-grid">
+
+                    <div class="field">
+
+                        <label>
+                            Full Name
+                            <span class="required">*</span>
+                        </label>
+
+                        <input
+                            id="name"
+                            type="text"
+                            placeholder="e.g. Alexander Weber"
+                            autocomplete="name"
+                        >
+
+                    </div>
+
+
+                    <div class="field">
+
+                        <label>
+                            Position / Title
+                            <span class="required">*</span>
+                        </label>
+
+                        <input
+                            id="position"
+                            type="text"
+                            placeholder="e.g. Head of Customer Operations"
+                        >
+
+                    </div>
+
+
+                    <div class="field">
+
+                        <label>
+                            Business Email
+                            <span class="required">*</span>
+                        </label>
+
+                        <input
+                            id="email"
+                            type="email"
+                            placeholder="e.g. alexander@company.de"
+                            autocomplete="email"
+                        >
+
+                    </div>
+
+
+                    <div class="field">
+
+                        <label>
+                            Phone / WhatsApp
+                        </label>
+
+                        <input
+                            id="phone"
+                            type="tel"
+                            placeholder="e.g. +49 171 1234567"
+                            autocomplete="tel"
+                        >
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- STEP 2 -->
+
+            <div
+                class="step"
+                data-step="2"
+            >
+
+                <div class="step-number">
+                    02
+                </div>
+
+                <h3>
+                    Tell us about your company.
+                </h3>
+
+                <p class="step-intro">
+                    Understanding your operating environment helps
+                    us identify the most relevant solution areas.
+                </p>
+
+
+                <div class="field-grid">
+
+                    <div class="field full">
+
+                        <label>
+                            Company Name
+                            <span class="required">*</span>
+                        </label>
+
+                        <input
+                            id="company"
+                            type="text"
+                            placeholder="e.g. LogiTech Europe GmbH"
+                        >
+
+                    </div>
+
+
+                    <div class="field full">
+
+                        <label>
+                            Industry
+                            <span class="required">*</span>
+                        </label>
+
+                        <select id="productType">
+
+                            <option value="">
+                                Select your industry
+                            </option>
+
+                            <option value="E-Commerce & Retail Logistics">
+                                E-Commerce & Retail Logistics
+                            </option>
+
+                            <option value="SaaS & Cloud Software">
+                                SaaS & Cloud Software
+                            </option>
+
+                            <option value="Fintech & Digital Banking">
+                                Fintech & Digital Banking
+                            </option>
+
+                            <option value="Manufacturing & Industrial">
+                                Manufacturing & Industrial
+                            </option>
+
+                            <option value="Travel & Hospitality">
+                                Travel & Hospitality
+                            </option>
+
+                            <option value="Healthcare & Pharma">
+                                Healthcare & Pharma
+                            </option>
+
+                            <option value="Cross-Border B2B Services">
+                                Cross-Border B2B Services
+                            </option>
+
+                            <option value="Other">
+                                Other
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="field full">
+
+                        <label>
+                            What does your company provide?
+                            <span class="required">*</span>
+                        </label>
+
+                        <input
+                            id="product"
+                            type="text"
+                            placeholder="Describe your product or service in one sentence."
+                        >
+
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- STEP 3 -->
+
+            <div class="step" data-step="3">
+                <div class="step-number">03</div>
+                <h3>What would you like to improve?</h3>
+                <p class="step-intro">
+                    Select all areas that are relevant. Your selections guide the AI, but Aaspireya's recommendations will still be based on your full business context.
+                </p>
+
+                <div class="choice-grid multi-select">
+                    <div class="choice">
+                        <input type="checkbox" name="serviceInterest" id="interestSupport" value="German Customer Support (24/7 Voice & Chat)">
+                        <label for="interestSupport"><div class="choice-icon">🇩🇪</div><div class="choice-text"><strong>German Customer Support</strong><span>Voice, chat and German-language customer experience.</span></div></label>
+                    </div>
+                    <div class="choice">
+                        <input type="checkbox" name="serviceInterest" id="interestEmail" value="German Email & Ticket Handling">
+                        <label for="interestEmail"><div class="choice-icon">📧</div><div class="choice-text"><strong>German Email & Ticket Handling</strong><span>Structured inbox, ticket and escalation management.</span></div></label>
+                    </div>
+                    <div class="choice">
+                        <input type="checkbox" name="serviceInterest" id="interestAI" value="AI-Powered Automated Chat Assistant">
+                        <label for="interestAI"><div class="choice-icon">🤖</div><div class="choice-text"><strong>AI & Automation</strong><span>AI assistants, workflow automation and intelligent routing.</span></div></label>
+                    </div>
+                    <div class="choice">
+                        <input type="checkbox" name="serviceInterest" id="interestBackOffice" value="Back-Office Data & Order Processing">
+                        <label for="interestBackOffice"><div class="choice-icon">⚙️</div><div class="choice-text"><strong>Back-Office Operations</strong><span>Data, order and repetitive operational processing.</span></div></label>
+                    </div>
+                    <div class="choice">
+                        <input type="checkbox" name="serviceInterest" id="interestVA" value="Dedicated Executive Virtual Assistance">
+                        <label for="interestVA"><div class="choice-icon">👤</div><div class="choice-text"><strong>Virtual Assistance</strong><span>Dedicated operational and executive support.</span></div></label>
+                    </div>
+                    <div class="choice">
+                        <input type="checkbox" name="serviceInterest" id="interestRPA" value="AI + Robotic Workflow Automation (RPA)">
+                        <label for="interestRPA"><div class="choice-icon">⚡</div><div class="choice-text"><strong>RPA / Workflow Automation</strong><span>Reduce repetitive manual work across processes.</span></div></label>
+                    </div>
+                    <div class="choice">
+                        <input type="checkbox" name="serviceInterest" id="interestAnalytics" value="Operational Analytics & KPI Dashboards">
+                        <label for="interestAnalytics"><div class="choice-icon">📊</div><div class="choice-text"><strong>Analytics & KPI Dashboards</strong><span>Operational visibility, measurement and performance control.</span></div></label>
+                    </div>
+                    <div class="choice">
+                        <input type="checkbox" name="serviceInterest" id="interestMulti" value="Multilingual Enterprise Communication Support">
+                        <label for="interestMulti"><div class="choice-icon">🌍</div><div class="choice-text"><strong>Multilingual Operations</strong><span>International communication and multilingual support.</span></div></label>
+                    </div>
+                    <div class="choice">
+                        <input type="checkbox" name="serviceInterest" id="interestCX" value="Omnichannel Customer Experience (CX) Management">
+                        <label for="interestCX"><div class="choice-icon">💬</div><div class="choice-text"><strong>Customer Experience</strong><span>Omnichannel service quality and customer journeys.</span></div></label>
+                    </div>
+                    <div class="choice">
+                        <input type="checkbox" name="serviceInterest" id="interestQA" value="Quality Assurance & Escalation Management">
+                        <label for="interestQA"><div class="choice-icon">✓</div><div class="choice-text"><strong>Quality & Escalations</strong><span>QA, governance, escalation and service consistency.</span></div></label>
+                    </div>
+                </div>
+                <div class="selection-note">You can select one, several, or all areas.</div>
+            </div>
+
+            <!-- STEP 4 -->
+
+            <div class="step" data-step="4">
+                <div class="step-number">04</div>
+                <h3>Give us the operating context.</h3>
+                <p class="step-intro">These details make the AI assessment substantially more specific to your organisation.</p>
+
+                <div class="helper-grid">
+                    <div class="field">
+                        <label>Company / Operations Size</label>
+                        <select id="companySize">
+                            <option value="">Select an option</option>
+                            <option>1–10 employees</option><option>11–50 employees</option><option>51–200 employees</option>
+                            <option>201–500 employees</option><option>501–1,000 employees</option><option>1,001+ employees</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label>Primary Market / Geography</label>
+                        <input id="geography" type="text" placeholder="e.g. Germany, DACH, Europe, global">
+                    </div>
+                    <div class="field">
+                        <label>Approx. Monthly Customer / Process Volume</label>
+                        <input id="monthlyVolume" type="text" placeholder="e.g. 20,000 tickets / 5,000 orders">
+                    </div>
+                    <div class="field">
+                        <label>Current Team Handling This</label>
+                        <input id="teamSize" type="text" placeholder="e.g. 12 agents + 3 operations staff">
+                    </div>
+                    <div class="field full">
+                        <label>Current Tools / Channels</label>
+                        <input id="currentTools" type="text" placeholder="e.g. Zendesk, Salesforce, WhatsApp, email, Excel, ERP">
+                        <small class="helper">If you are unsure, leave this blank.</small>
+                    </div>
+                    <div class="field">
+                        <label>Current Outsourcing / Automation</label>
+                        <select id="currentModel">
+                            <option value="">Select an option</option>
+                            <option>Mostly handled in-house</option><option>Partially outsourced</option><option>Already using automation / AI</option>
+                            <option>Outsourced + automation</option><option>Not sure / evaluating</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label>Desired Timeline</label>
+                        <select id="timeline">
+                            <option value="">Select an option</option>
+                            <option>Immediate / 0–30 days</option><option>1–3 months</option><option>3–6 months</option><option>6–12 months</option><option>Exploring / no fixed timeline</option>
+                        </select>
+                    </div>
+                    <div class="field full">
+                        <label>What outcome matters most?</label>
+                        <input id="desiredOutcome" type="text" placeholder="e.g. faster response times, lower manual workload, better CX, scalable operations">
+                    </div>
+                    <div class="field full">
+                        <label>What is currently slowing down your business? <span class="required">*</span></label>
+                        <textarea id="query" placeholder="Describe the bottleneck, process, customer issue, cost pressure, growth constraint or operational problem. The more specific you are, the more specific the assessment will be."></textarea>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- STEP 5 — REVIEW -->
+            <div class="step" data-step="5">
+                <div class="step-number">05</div>
+                <h3>Review your assessment.</h3>
+                <p class="step-intro">
+                    Check the key details below before generating your personalised assessment.
+                </p>
+
+                <div class="review-grid">
+                    <div class="review-item">
+                        <span class="review-label">Name</span>
+                        <strong id="reviewName">—</strong>
+                    </div>
+                    <div class="review-item">
+                        <span class="review-label">Company</span>
+                        <strong id="reviewCompany">—</strong>
+                    </div>
+                    <div class="review-item">
+                        <span class="review-label">Industry</span>
+                        <strong id="reviewIndustry">—</strong>
+                    </div>
+                    <div class="review-item">
+                        <span class="review-label">Desired Outcome</span>
+                        <strong id="reviewPriority">AI will determine priority</strong>
+                    </div>
+                    <div class="review-item review-full">
+                        <span class="review-label">Selected Improvement Areas</span>
+                        <div id="reviewServices">—</div>
+                    </div>
+                    <div class="review-item review-full">
+                        <span class="review-label">Business Challenge</span>
+                        <div id="reviewQuery">—</div>
+                    </div>
+                    <div class="review-item review-full">
+                        <span class="review-label">Operating Context</span>
+                        <div id="reviewContext">Additional operating context not provided.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- NAVIGATION -->
+
+            <div class="form-navigation">
+
+                <button
+                    type="button"
+                    class="back-btn"
+                    id="backButton"
+                    onclick="previousStep()"
+                    disabled
+                >
+
+                    ← Back
+
+                </button>
+
+
+                <button
+                    type="button"
+                    class="next-btn"
+                    id="nextButton"
+                    onclick="nextStep()"
+                >
+
+                    Continue →
+
+                </button>
+
+            </div>
+
+
+            <div
+                id="errorBox"
+                class="error-box"
+            ></div>
+
+
+        </div>
+
+
+        <!-- LOADING -->
+
+        <div
+            class="loading"
+            id="loadingState"
+        >
+
+            <div class="spinner"></div>
+
+            <h3>
+                Building your transformation assessment...
+            </h3>
+
+            <p>
+                Analysing your business challenge and matching
+                it with relevant Aaspireya capabilities.
+            </p>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- =================================================
+         REPORT
+    ================================================== -->
+
+    <div
+        id="reportArea"
+        class="report-area"
+    >
+
+        <div id="responseContainer"></div>
+
+    </div>
+
+</main>
+
+
+<!-- =====================================================
+     FOOTER
+====================================================== -->
+
+<footer class="footer">
+
+    <div class="footer-inner">
+
+        <div>
+
+            <div class="footer-name">
+                Aaspireya Global Tech
+            </div>
+
+            <div class="footer-copy">
+                AI Solutions • German Language BPO • Business Process Services
+            </div>
+
+        </div>
+
+
+        <div class="footer-copy">
+
+            © 2026 Aaspireya Global Tech
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<script>
+let currentStep = 1;
+const totalSteps = 5;
+let assessmentData = null;
+
+function getValue(id) {
+    const el = document.getElementById(id);
+    return el ? el.value.trim() : "";
+}
+
+function getSelectedServices() {
+    return Array.from(document.querySelectorAll('input[name="serviceInterest"]:checked')).map(x => x.value);
+}
+
+function escapeHtml(value) {
+    if (value === null || value === undefined) return "";
+    return String(value).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#039;");
+}
+
+function updateProgress() {
+    document.getElementById("progressFill").style.width = ((currentStep / totalSteps) * 100) + "%";
+    document.getElementById("progressCount").innerText = `Step ${currentStep} of ${totalSteps}`;
+    document.querySelectorAll(".step").forEach(step => step.classList.toggle("active", Number(step.dataset.step) === currentStep));
+    const back = document.getElementById("backButton");
+    const next = document.getElementById("nextButton");
+    back.disabled = currentStep === 1;
+    next.innerText = currentStep === totalSteps ? "Generate My Assessment →" : "Continue →";
+}
+
+function showError(message) {
+    const box = document.getElementById("errorBox");
+    box.innerText = message;
+    box.classList.add("active");
+}
+function clearError() {
+    const box = document.getElementById("errorBox");
+    box.classList.remove("active"); box.innerText = "";
+}
+
+function validateCurrentStep() {
+    clearError();
+    if (currentStep === 1) {
+        if (!getValue("name")) return showError("Please enter your full name."), false;
+        if (!getValue("position")) return showError("Please enter your position or title."), false;
+        const email = getValue("email");
+        if (!email) return showError("Please enter your business email."), false;
+        if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return showError("Please enter a valid business email."), false;
+    }
+    if (currentStep === 2) {
+        if (!getValue("company")) return showError("Please enter your company name."), false;
+        if (!getValue("productType")) return showError("Please select your industry."), false;
+        if (!getValue("product")) return showError("Please describe your product or service."), false;
+    }
+    if (currentStep === 3) {
+        if (!getSelectedServices().length) return showError("Please select at least one area you want to improve."), false;
+    }
+    if (currentStep === 4) {
+        if (!getValue("query")) return showError("Please describe your business challenge."), false;
+        if (getValue("query").length < 20) return showError("Please provide at least a little more detail so the AI can create a useful assessment."), false;
+    }
+    return true;
+}
+
+function updateReview() {
+    document.getElementById("reviewName").innerText = getValue("name") || "—";
+    document.getElementById("reviewCompany").innerText = getValue("company") || "—";
+    document.getElementById("reviewIndustry").innerText = getValue("productType") || "—";
+    document.getElementById("reviewPriority").innerText = getValue("desiredOutcome") || "AI will determine priority";
+    document.getElementById("reviewQuery").innerText = getValue("query") || "—";
+    const services = getSelectedServices();
+    document.getElementById("reviewServices").innerHTML = services.length ? services.map(s => `<span class="review-chip">${escapeHtml(s)}</span>`).join("") : "—";
+    const context = [
+        getValue("companySize") && `Size: ${getValue("companySize")}`,
+        getValue("geography") && `Market: ${getValue("geography")}`,
+        getValue("monthlyVolume") && `Volume: ${getValue("monthlyVolume")}`,
+        getValue("teamSize") && `Team: ${getValue("teamSize")}`,
+        getValue("currentTools") && `Tools: ${getValue("currentTools")}`,
+        getValue("currentModel") && `Model: ${getValue("currentModel")}`,
+        getValue("timeline") && `Timeline: ${getValue("timeline")}`
+    ].filter(Boolean);
+    document.getElementById("reviewContext").innerText = context.length ? context.join(" • ") : "Additional operating context not provided.";
+}
+
+function nextStep() {
+    if (!validateCurrentStep()) return;
+    if (currentStep < totalSteps) {
+        currentStep++;
+        if (currentStep === totalSteps) updateReview();
+        updateProgress();
+        window.scrollTo({top: document.getElementById("assessment").offsetTop - 100, behavior:"smooth"});
+    } else generateReport();
+}
+function previousStep() {
+    clearError();
+    if (currentStep > 1) { currentStep--; updateProgress(); }
+}
+function scrollToAssessment() { document.getElementById("assessment").scrollIntoView({behavior:"smooth"}); }
+
+async function generateReport() {
+
+    if (!validateCurrentStep()) {
+        return;
+    }
+
+    const payload = {
+        name: getValue("name"),
+        position: getValue("position"),
+        email: getValue("email"),
+        phone: getValue("phone"),
+
+        company: getValue("company"),
+        product_type: getValue("productType"),
+        product: getValue("product"),
+
+        selected_services: getSelectedServices(),
+
+        query: getValue("query"),
+
+        company_size: getValue("companySize"),
+        geography: getValue("geography"),
+        monthly_volume: getValue("monthlyVolume"),
+        team_size: getValue("teamSize"),
+
+        current_tools: getValue("currentTools"),
+        current_model: getValue("currentModel"),
+
+        desired_outcome: getValue("desiredOutcome"),
+        timeline: getValue("timeline")
+    };
+
+    const form = document.getElementById("assessmentForm");
+    const loading = document.getElementById("loadingState");
+
+    form.style.display = "none";
+    loading.classList.add("active");
+    clearError();
+
+    try {
+
+        const response = await fetch("/api/chat", {
+            method: "POST",
+
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json"
+            },
+
+            body: JSON.stringify(payload)
+        });
+
+        /*
+         * DO NOT immediately call response.json().
+         *
+         * Render/Flask might return HTML when there is a
+         * 404/500/configuration problem.
+         */
+
+        const contentType =
+            response.headers.get("content-type") || "";
+
+        const rawText = await response.text();
+
+        let data = null;
+
+        if (contentType.includes("application/json")) {
+
+            try {
+
+                data = JSON.parse(rawText);
+
+            } catch (jsonError) {
+
+                console.error(
+                    "Invalid JSON received from server:",
+                    rawText
+                );
+
+                throw new Error(
+                    "The server returned invalid JSON. Please check the Render logs."
+                );
+            }
+
+        } else {
+
+            console.error(
+                "Non-JSON response received:",
+                rawText
+            );
+
+            /*
+             * This makes the actual problem understandable
+             * instead of showing:
+             *
+             * Unexpected token '<'
+             */
+
+            if (response.status === 404) {
+
+                throw new Error(
+                    "Assessment API not found (404). Make sure the Flask server is running the correct app.py."
+                );
+
+            }
+
+            if (response.status === 405) {
+
+                throw new Error(
+                    "Assessment API rejected the request (405). The /api/chat endpoint must accept POST requests."
+                );
+
+            }
+
+            if (response.status >= 500) {
+
+                throw new Error(
+                    "The server encountered an error (" +
+                    response.status +
+                    "). Please check the Render logs."
+                );
+
+            }
+
+            throw new Error(
+                "The server returned an unexpected response. Please try again."
+            );
+        }
+
+        if (!response.ok) {
+
+            throw new Error(
+                data?.message ||
+                "The server could not process the assessment."
+            );
+        }
+
+        if (!data || data.success !== true) {
+
+            throw new Error(
+                data?.message ||
+                "Unable to generate the assessment."
+            );
+        }
+
+        if (!data.assessment) {
+
+            throw new Error(
+                "The server generated no assessment data."
+            );
+        }
+
+        assessmentData = data.assessment;
+
+        renderReport(
+            data.assessment,
+            data.whatsapp_url,
+            data.email_sent,
+            data.client_email_sent
+        );
+
+        document
+            .getElementById("reportArea")
+            .classList.add("active");
+
+        document
+            .getElementById("reportArea")
+            .scrollIntoView({
+                behavior: "smooth"
+            });
+
+    } catch (error) {
+
+        console.error(
+            "Assessment generation error:",
+            error
+        );
+
+        form.style.display = "block";
+        loading.classList.remove("active");
+
+        showError(
+            error.message ||
+            "Something went wrong. Please try again."
+        );
+    }
+}
+
+function listHtml(items, icon="✓") {
+    if (!Array.isArray(items) || !items.length) return `<div class="bullet-item">No additional insight was generated.</div>`;
+    return items.map(item => `<div class="bullet-item"><span class="bullet-icon">${icon}</span><span>${escapeHtml(item)}</span></div>`).join("");
+}
+function renderReport(report, whatsappUrl, emailSent, clientEmailSent) {
+    const score = Math.max(0, Math.min(100, Number(report.opportunity_score || 0)));
+    const level = report.opportunity_level || "Potential Identified";
+    const services = Array.isArray(report.recommended_services) ? report.recommended_services : [];
+    const roadmap = Array.isArray(report.implementation_roadmap) ? report.implementation_roadmap : [];
+    const dimensions = Array.isArray(report.score_dimensions) ? report.score_dimensions : [];
+    const impacts = Array.isArray(report.business_impact_areas) ? report.business_impact_areas : [];
+    const selected = Array.isArray(report.selected_services) ? report.selected_services : [];
+    const serviceHtml = services.map(s => `<div class="service"><div class="service-head"><div class="service-name">${escapeHtml(s.service)}</div><div class="match">${escapeHtml(s.match_score)}% Match</div></div><p>${escapeHtml(s.value_proposition)}</p><div class="impact">Potential impact: ${escapeHtml(s.roi_impact)}</div></div>`).join("");
+    const roadmapHtml = roadmap.map((s,i) => `<div class="roadmap-step"><div class="roadmap-number">0${i+1}</div><h4>${escapeHtml(s.phase)}</h4><div class="timeline">${escapeHtml(s.timeline)}</div><p>${escapeHtml(s.details)}</p></div>`).join("");
+    const dimensionHtml = dimensions.map(d => `<div class="dimension-card"><strong>${escapeHtml(d.name)}</strong><div class="dim-score">${escapeHtml(d.score)}</div><span>/ 20 • ${escapeHtml(d.rationale || "")}</span></div>`).join("");
+    const impactHtml = impacts.map(i => `<div class="impact-card"><strong>${escapeHtml(i.area)}</strong><span>${escapeHtml(i.potential)}</span></div>`).join("");
+    const channelHtml = (report.recommended_channels || []).map(c => `<span style="display:inline-block;padding:7px 10px;background:#edf5ff;border:1px solid #d9e7f7;color:#174b91;border-radius:100px;margin:0 5px 5px 0;font-size:10px;font-weight:800;">${escapeHtml(c)}</span>`).join("") || "To be determined during discovery.";
+    const kpiHtml = (report.kpi_framework || []).map(k => `<div class="kpi"><strong>${escapeHtml(k.name)}</strong><span>${escapeHtml(k.description)}</span></div>`).join("");
+    const automationHtml = listHtml(report.automation_opportunities,"⚙");
+    const challengeHtml = listHtml(report.primary_challenges,"✓");
+    const opportunityHtml = listHtml(report.business_opportunities,"→");
+    const emailStatus = emailSent && clientEmailSent ? "Internal + client emails dispatched" : emailSent ? "Internal assessment email dispatched" : clientEmailSent ? "Client assessment email dispatched" : "Assessment generated — email configuration needs attention";
+
+    document.getElementById("responseContainer").innerHTML = `
+        <div class="report-hero"><div class="report-top"><div><div class="report-label">Aaspireya Business Transformation Assessment</div><h2>${escapeHtml(report.report_title || "Your opportunity snapshot")}</h2><p>${escapeHtml(level)} • ${escapeHtml(report.industry_classification || "Business Operations")}</p><div style="margin-top:15px;font-size:10px;color:rgba(255,255,255,.55);">${escapeHtml(emailStatus)}</div></div><div class="result-score" style="--score:${score}%"><div class="result-score-content"><div class="result-score-number">${score}</div><div class="result-score-text">AI Opportunity</div></div></div></div></div>
+        <div class="result-grid"><div class="result-card"><h4>Opportunity Level</h4><p>${escapeHtml(level)}</p></div><div class="result-card"><h4>AI Priority</h4><p>${escapeHtml(report.urgency_rating || "To be assessed")}</p></div><div class="result-card"><h4>Decision Focus</h4><p>${escapeHtml(report.decision_focus || "Validate the highest-impact workflow first")}</p></div></div>
+        <div class="result-section"><h3>Executive Diagnosis</h3><div class="summary-box">${escapeHtml(report.executive_summary || "No executive summary was generated.")}</div><div style="margin-top:14px;font-size:11px;color:#607087;"><strong>Why this matters:</strong> ${escapeHtml(report.diagnosis_rationale || "The recommendation is based on the business context supplied in this assessment.")}</div></div>
+        <div class="result-section"><h3>AI Opportunity Score</h3><p style="font-size:11px;color:#687991;margin-top:-8px;margin-bottom:15px;">The score is generated by Gemini from the information provided. It is an opportunity indicator, not a guaranteed ROI prediction.</p><div class="dimension-grid">${dimensionHtml}</div></div>
+        <div class="result-section"><h3>Key Business Challenges</h3><div class="bullet-grid">${challengeHtml}</div></div>
+        <div class="result-section"><h3>Transformation Opportunities</h3><div class="bullet-grid">${opportunityHtml}</div></div>
+        <div class="result-section"><h3>Business Impact Areas</h3><div class="impact-list">${impactHtml || '<div class="impact-card"><strong>Validation required</strong><span>Impact should be quantified after workflow and volume discovery.</span></div>'}</div></div>
+        <div class="result-section"><h3>Recommended Aaspireya Solution</h3><div class="summary-box">${escapeHtml(report.solution_recommendation || "A tailored combination of Aaspireya capabilities should be validated during discovery.")}</div></div>
+        <div class="result-section"><h3>Recommended Aaspireya Services</h3><div class="services">${serviceHtml || '<div class="service">No service recommendations were generated.</div>'}</div>${selected.length ? `<div style="margin-top:14px;font-size:10px;color:#728198;">Your selected interests: ${selected.map(escapeHtml).join(" • ")}</div>` : ""}</div>
+        <div class="result-section"><h3>Recommended Operating Model</h3><div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:20px;"><div class="workflow-node">CUSTOMER / INPUT</div><div class="workflow-node">AI TRIAGE</div><div class="workflow-node">AUTOMATION + HUMAN</div><div class="workflow-node">RESOLUTION / KPI</div></div><div class="summary-box" style="font-family:monospace;white-space:pre-wrap;overflow-x:auto;">${escapeHtml(report.operational_diagram || "Workflow to be defined during discovery.")}</div></div>
+        <div class="result-section"><h3>AI & Automation Opportunities</h3><div class="bullet-grid">${automationHtml}</div></div>
+        <div class="result-section"><h3>Recommended Customer / Operations Channels</h3><div>${channelHtml}</div></div>
+        <div class="result-section"><h3>Implementation Roadmap</h3><div class="roadmap">${roadmapHtml}</div></div>
+        <div class="result-section"><h3>Suggested KPI Framework</h3><div class="kpi-grid">${kpiHtml}</div></div>
+        <div class="result-section"><h3>Recommended Next Step</h3><div class="summary-box">${escapeHtml(report.recommended_next_step || "Schedule a discovery consultation with Aaspireya Global Tech.")}</div></div>
+        <div class="result-section"><h3>Deutsch — Executive Summary</h3><div class="summary-box">${escapeHtml(report.german_executive_summary || "Keine deutsche Zusammenfassung verfügbar.")}</div></div>
+        <div class="cta"><h3>Ready to explore the opportunity?</h3><p>${escapeHtml(report.cta_message || "Your assessment is a starting point. The next step is a discovery conversation to validate workflows, requirements, volumes and the operating model.")}</p><div class="cta-actions"><a class="whatsapp-btn" href="${escapeHtml(whatsappUrl || "#")}" target="_blank" rel="noopener noreferrer">💬 Discuss on WhatsApp</a><button class="restart-btn" onclick="restartAssessment()">↻ Start New Assessment</button></div></div>
+    `;
+}
+
+function restartAssessment() {
+    assessmentData = null; currentStep = 1;
+    document.getElementById("reportArea").classList.remove("active");
+    document.getElementById("assessmentForm").style.display = "block";
+    document.getElementById("loadingState").classList.remove("active");
+    document.getElementById("assessmentForm").reset?.();
+    document.querySelectorAll('input[name="serviceInterest"]').forEach(x => x.checked = false);
+    updateProgress(); clearError();
+    document.getElementById("assessment").scrollIntoView({behavior:"smooth"});
+}
+
+updateProgress();
+const processGrid = document.querySelector(".process-grid");
+function adjustProcessGrid() { if(!processGrid) return; processGrid.style.gridTemplateColumns = window.innerWidth < 700 ? "1fr" : window.innerWidth < 900 ? "repeat(2,1fr)" : "repeat(4,1fr)"; }
+window.addEventListener("resize", adjustProcessGrid); adjustProcessGrid();
+</script>
+
+</body>
+
+</html>
